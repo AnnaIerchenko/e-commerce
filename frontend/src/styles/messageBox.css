@@ -1,0 +1,17 @@
+.message-container {
+  height: 50vh;
+  padding-top: 30px;
+  margin: 50px;
+}
+.message {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ff0000;
+}
+.messageLoading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000000;
+}

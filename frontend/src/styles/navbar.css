@@ -1,0 +1,135 @@
+
+.n-container {
+  height: 160px;
+  padding: 5px 20px;
+
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+.n-email{
+  letter-spacing: 1.5px;
+  margin-right: 15px;
+}
+.n-row:first-child {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.socials img {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.4s;
+}
+.socials img:hover{
+  transform: scale(1.4);
+}
+
+.n-row:nth-child(2){
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.logo{
+  width: 250px;
+  height: auto;
+}
+.icons a{
+  color: #001e20;
+  font-size: 18px;
+}
+
+.icons span {
+  position: relative;
+  margin: 0 15px;
+  text-transform: uppercase;
+  color: #001e20;
+}
+.icons span .totalItems {
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+top: -10px;
+right: -30px;
+background-color: #ff0000;
+color: #fff;
+width: 15px;
+height: 15px;
+border-radius: 4px;
+}
+
+.items {
+  list-style-type: none;
+  background: linear-gradient(45deg, #001e20, rgb(53, 53, 53));
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.list{
+  margin-right: 20px;
+}
+
+.list a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+}
+.list a:hover {
+  color: #ff0000;
+}
+.btn {
+  display: none;
+position: absolute;
+  right: 10px;
+  top: 7px;
+  padding: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+.list a.active {
+  color: #ff0000;
+}
+@media screen and (max-width: 480px) {
+
+  .n-row:first-child {
+    font-size: 10px;
+   
+  }
+  .socials img {
+    width: 15px;
+  margin: 0 5px;
+  }
+  .logo {
+    width: 130px;
+  }
+  .icons a {
+    font-size: 12px;
+  }
+  .icons span {
+    margin: 0 10px;
+  }
+  .icons span .totalItems {
+    top: -10px;
+    right: -20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    font-size: 10px;
+  }
+  .list a {
+    font-size: 16px;
+  }
+  .list:last-child {
+    margin-right: unset;
+    
+  }
+} 
